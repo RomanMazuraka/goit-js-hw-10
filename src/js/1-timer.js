@@ -85,3 +85,9 @@ function convertMs(ms) {
 function addLeadingZero(value) {
   return value < 10 ? `0${value}` : value;
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const startButton = document.getElementById("start-button");
+    startButton.disabled = true; 
+});
+
