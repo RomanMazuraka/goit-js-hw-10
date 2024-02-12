@@ -49,3 +49,20 @@ input {
   margin-bottom: 24px;
   border: 1px solid;
 }
+
+.fieldset-box {
+  width: 220px;
+  height: 45px;
+  margin-bottom: 8px;
+}
+label {
+  margin-right: 20px;
+}
+
+button[type='submit'] {
+  width: 250px;
+}
+
+input[type='number'] {
+  margin-top: 5px;
+}
