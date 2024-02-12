@@ -1,0 +1,2 @@
+import{i as s}from"./vendor-77e16229.js";s.settings({position:"topRight",layout:1});const n=document.querySelector(".form");n.addEventListener("submit",function(m){m.preventDefault();const o=new FormData(this),t=o.get("delay"),i=o.get("state");new Promise((e,r)=>{i==="fulfilled"?setTimeout(()=>e(t),t):i==="rejected"&&setTimeout(()=>r(t),t)}).then(e=>{s.success({message:`✅ Fulfilled promise in ${e}ms`})},e=>{s.error({message:`❌ Rejected promise in ${e}ms`})})});
+//# sourceMappingURL=2-snackbar-3eff4d6b.js.map
